@@ -45,21 +45,39 @@ h2 {
   background-size: cover;
 }
 
+.vlek-groen {
+  background-image: url("../images/vlek_groen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vlek-roze {
+  background-image: url("../images/vlek_roze.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vlek-oranje {
+  background-image: url("../images/vlek_oranje.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* button */
 a.bttn {
   text-decoration: none;
   color: #FDF8F4;
   display: block;
   position: relative;
-  line-height: 50px;
+  margin-top: 40px;
   max-width: 50%;
+  line-height: 50px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
   padding-left: 5px;
   padding-right: 5px;
   background-color: #F16E5F;
-  margin-top: 2em;
   border-radius: 35px;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -78,7 +96,6 @@ a.bttn:hover {
 
 /* HOMEPAGE */
 .container .navigatie {
-  background-color: #FDF8F4;
   height: 30px;
 }
 
@@ -89,7 +106,6 @@ a.bttn:hover {
 @media (min-width: 560px) {
   .container .navigatie .navbar {
     display: block;
-    background-color: #FDF8F4;
     color: #707070;
   }
   .container .navigatie .navbar .navbar-brand {
@@ -98,8 +114,13 @@ a.bttn:hover {
   .container .navigatie .navbar .navbar-brand:hover {
     text-decoration: underline;
     color: #F16E5F;
+    font-weight: 700;
     cursor: pointer;
   }
+}
+
+.container1 .start {
+  padding-top: 40px;
 }
 
 .container1 img {
@@ -179,9 +200,125 @@ a.bttn:hover {
   margin-right: 0px;
 }
 
-.container2 .symp h2 {
-  font-size: 100px;
-  color: #E8A5BC;
+.container2 .row2 {
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.container2 .row2 h1 {
+  font-size: 50px;
+  color: #F16E5F;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 560px) {
+  .container2 .row2 h1 {
+    font-size: 110px;
+  }
+}
+
+.container2 .row3 {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #FDF8F4;
+  margin-bottom: -50px;
+  margin-top: 10px;
+}
+
+.container3 .hulp h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  color: #FF9725;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 560px) {
+  .container3 .hulp h1 {
+    font-size: 110px;
+  }
+}
+
+.container3 .hulp h2 {
+  color: #CA648E;
+}
+
+.container3 .hulp p {
+  padding-top: 50px;
+}
+
+.container3 .zelfhulp {
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  color: #FDF8F4;
+  text-align: center;
+}
+
+.container3 .zelfhulp h2 {
+  color: #CA648E;
+}
+
+.container3 .zelfhulp p {
+  padding-top: 20px;
+}
+
+.container3 .zelfhulp a.bttn {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container3 .zelfhulp input[type="submit"] {
+  text-decoration: none;
+  color: #FDF8F4;
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F16E5F;
+  margin-top: 20px;
+  border-radius: 35px;
+  border: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  left: 0;
+  top: 0;
+  -webkit-box-shadow: 5px 5px #E8A5BC;
+          box-shadow: 5px 5px #E8A5BC;
+}
+
+.container3 .zelfhulp input[type="submit"]:hover {
+  -webkit-box-shadow: 1px 1px #E8A5BC;
+          box-shadow: 1px 1px #E8A5BC;
+  left: 5px;
+  top: 5px;
+}
+
+.container3 .zelfhulp input[type="text"] {
+  max-width: 42%;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 35px;
+  line-height: 50px;
+}
+
+@media (min-width: 560px) {
+  .container3 .zelfhulp input[type="text"] {
+    width: 340px;
+  }
 }
 
 .container5 .contact {
