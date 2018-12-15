@@ -249,7 +249,7 @@ a.bttn:hover {
 }
 
 .container3 .zelfhulp {
-  margin-top: 30px;
+  margin-top: 50px;
   padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
@@ -345,6 +345,7 @@ a.bttn:hover {
   background-color: #F16E5F;
   margin-top: 20px;
   border-radius: 35px;
+  border: 0px;
   -webkit-transition: all 1s;
   transition: all 1s;
   left: 0;
