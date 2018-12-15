@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900');
+
+$color1: #FDF8F4;
+$color2: #CA648E;
+$color3: #D8D67B;
+$color4: #FF9725;
+$color5: #08BC84;
+$color6: #707070;
+$color7: #E8A5BC;
+$color8: #F16E5F;
+
+$alpha1: 0.5;
+$alpha2: 1;
+
+$bg-gradient: linear-gradient(-45deg, $color2, $color1);
+
+$fontset1: 'Montserrat', sans-serif;
+
+$breekpunt: 560px;
+
+/* algemeen */
+*{
+    padding:0; 
+    margin: 0;
+    font-family: $fontset1;
+    box-sizing:border-box;
+}
+
+body{
+    color: #707070;
+    background-color: $color1;
+}
+h1{
+    font-weight: 900;
+    font-size: 80px;
+
+    @media (min-width: $breekpunt) {
+        font-weight: 900;
+        font-size: 140px;
+        padding-top: 30px; 
+    }
+}
+h2 {
+    font-weight: 600;
+    font-size: 44px;
+    color: $color8;
+}    
+/* background vlekken */
+.vlek-rood {
+    background-image: url('../images/vlek_rood.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vlek-roodroze {
+    background-image: url('../images/vlek_roodroze.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* button */
+a.bttn {
+    text-decoration:none;
+    color: #FDF8F4;
+    display: block;
+    position:relative;
+    line-height: 50px;
+    max-width: 50%;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:800;
+    padding-left: 5px;
+    padding-right:5px;
+    background-color: $color8;
+    margin-top: 2em;
+    border-radius: 35px;
+    transition: all 1s;
+    left:0;
+    top:0;
+    box-shadow: 5px 5px $color7;
+}
+
+a.bttn:hover{
+    box-shadow: 1px 1px $color7;
+    left:5px;
+    top:5px;
+}
+
+/* HOMEPAGE */
+.container {
+    
+    .navigatie{
+        background-color: #FDF8F4;
+        height: 30px;
+
+        .navbar {
+            display: none; 
+
+            @media (min-width: $breekpunt) {
+                display: block;
+                background-color: #FDF8F4;
+                color: #707070;
+
+                .navbar-brand{
+                color: #707070;
+                }
+                .navbar-brand:hover{
+                text-decoration: underline;
+                color: $color8;
+                cursor:pointer;
+                }
+            } 
+        }
+    }
+}
+.container1{
+    img {
+        display: none;
+
+        @media (min-width: $breekpunt) {
+            display:block;
+            max-width: 80%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;  
+            margin-top: 20px;
+        }
+    }
+    .definitie{
+        margin-top: 80px;
+        .txt {
+            position: relative;
+        }
+        img {
+            display: block;
+            max-width: 50%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+
+            @media (min-width: $breekpunt){
+                display: none;
+            }
+        }
+    }
+    .soorten {
+        margin-top: 20px;
+        text-align: center;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        color: #FDF8F4;
+
+        h3{
+            color: $color3;
+        }
+        img {
+            margin-top: 10px;
+            max-width: 50%;
+            height: auto;
+        }
+
+        @media (min-width: $breekpunt){
+            margin-top: 90px;
+        }
+
+        .bttn {
+            margin-left: auto;
+            margin-right: 0px;
+        }
+    }
+    .row6 {
+        margin-top: 100px;
+        .bttn {
+            margin-left: auto;
+            margin-right: 0px;
+        }
+    }
+}
+
+.container2{
+    .symp {
+        h2{
+            font-size: 100px;
+            color: #E8A5BC;
+        }    
+    }
+}
+.container5{
+    .contact {
+        margin-top: 50px;
+        padding-bottom: 30px;
+        h1{
+            font-size: 50px;
+            color: #CA648E;
+        }
+        
+        input[type="submit"]{
+            text-decoration:none;
+            color: #FDF8F4;
+            display: block;
+            position:relative;
+            line-height: 50px;
+            text-align:center;
+            text-transform: uppercase;
+            font-weight:800;
+            padding-left: 20px;
+            padding-right:20px;
+            background-color: $color8;
+            margin-top: 20px;
+            border-radius: 35px;
+            transition: all 1s;
+            left:0;
+            top:0;
+            box-shadow: 5px 5px $color7;
+        }
+        input[type="submit"]:hover{
+            box-shadow: 1px 1px $color7;
+            left:5px;
+            top:5px;
+        }
+        input[type="text"]{
+            max-width: 42%;
+            margin-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 35px;
+            line-height: 50px;
+    
+            @media (min-width: $breekpunt){
+            width: 340px;
+            }   
+            
+        }
+    }
+}
+
+.footer {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+
+        @media (min-width: $breekpunt) {
+        padding-left: 10%;
+        }
+
+    input[type="submit"]{
+        text-decoration:none;
+        color: #FDF8F4;
+        display: inline;
+        position:relative;
+        line-height: 50px;
+        text-align:center;
+        text-transform: uppercase;
+        font-weight:800;
+        padding-left: 20px;
+        padding-right:20px;
+        background-color: $color8;
+        margin-top: 2em;
+        border-radius: 35px;
+        transition: all 1s;
+        left:0;
+        top:0;
+        box-shadow: 5px 5px $color7;
+    }
+    input[type="submit"]:hover{
+        box-shadow: 1px 1px $color7;
+        left:5px;
+        top:5px;
+    }
+
+    input[type="text"]{
+        width: 250px;
+        margin-right: 10px;
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 35px;
+        line-height: 50px;
+
+        @media (min-width: $breekpunt){
+        width: 340px;
+        }    
+    }    
+}    
+
+
