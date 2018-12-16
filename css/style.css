@@ -95,28 +95,30 @@ a.bttn:hover {
 }
 
 /* HOMEPAGE */
-.container .navigatie {
-  height: 30px;
+.container .navbar-collapse .navbar-nav .nav-item {
+  color: #707070;
 }
 
-.container .navigatie .navbar {
-  display: none;
+.container .navbar-collapse .navbar-nav .nav-item:hover {
+  text-decoration: underline;
+  color: #F16E5F;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-@media (min-width: 560px) {
-  .container .navigatie .navbar {
-    display: block;
-    color: #707070;
-  }
-  .container .navigatie .navbar .navbar-brand {
-    color: #707070;
-  }
-  .container .navigatie .navbar .navbar-brand:hover {
-    text-decoration: underline;
-    color: #F16E5F;
-    font-weight: 700;
-    cursor: pointer;
-  }
+.container .navbar-collapse .navbar-nav .nav-link {
+  color: #707070;
+}
+
+.container .navbar-collapse .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: #F16E5F;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.container .navbar-collapse .navbar-nav .nav-link:active {
+  color: #F16E5F;
 }
 
 .container1 .start {
@@ -322,7 +324,13 @@ a.bttn:hover {
   }
 }
 
-.container4 h1 {
+.container4 .doneer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container4 .doneer h1 {
   margin-top: 50px;
   font-size: 50px;
   color: #08BC84;
@@ -330,17 +338,30 @@ a.bttn:hover {
 }
 
 @media (min-width: 560px) {
-  .container4 h1 {
+  .container4 .doneer h1 {
     font-size: 110px;
   }
 }
 
-.container4 h2 {
+.container4 .doneer h2 {
   color: #D8D67B;
+  padding-bottom: 50px;
 }
 
-.container4 p {
-  padding-top: 50px;
+.container4 .doneer .progress {
+  margin-top: 40px;
+}
+
+.container4 .doneer .progress .progress-bar {
+  background-color: #08BC84;
+}
+
+.container4 .doneer a.bttn {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container5 .contact {
