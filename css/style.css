@@ -142,6 +142,14 @@ a.bttn:hover {
 
 .container1 .definitie {
   margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.container1 .definitie h4 {
+  padding-top: 30px;
+  color: #FDF8F4;
 }
 
 .container1 .definitie .txt {
@@ -150,9 +158,10 @@ a.bttn:hover {
 
 .container1 .definitie img {
   display: block;
-  max-width: 50%;
+  max-width: 80%;
   height: auto;
   margin-left: auto;
+  margin-top: 50px;
   margin-right: auto;
 }
 
@@ -169,14 +178,18 @@ a.bttn:hover {
   padding-top: 50px;
   padding-right: 20px;
   padding-left: 20px;
-  color: #FDF8F4;
 }
 
 .container1 .soorten h3 {
   color: #D8D67B;
 }
 
+.container1 .soorten h2 {
+  padding-bottom: 40px;
+}
+
 .container1 .soorten img {
+  display: block;
   margin-top: 30px;
   max-width: 80%;
   height: auto;
@@ -196,11 +209,23 @@ a.bttn:hover {
 
 .container1 .row6 {
   margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.container1 .row6 p {
+  color: #FDF8F4;
+}
+
+.container1 .row6 h2 {
+  color: #D8D67B;
 }
 
 .container1 .row6 .bttn {
   margin-left: auto;
   margin-right: 0px;
+  background-color: #D8D67B;
 }
 
 .container2 .row2 {
@@ -437,6 +462,7 @@ a.bttn:hover {
 
 .footer {
   margin-top: 50px;
+  padding-top: 20px;
   padding-bottom: 30px;
   background-color: white;
 }
@@ -459,7 +485,6 @@ a.bttn:hover {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #F16E5F;
-  margin-top: 2em;
   border-radius: 35px;
   border: 0px;
   -webkit-transition: all 1s;
