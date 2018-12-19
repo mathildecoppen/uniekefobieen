@@ -158,11 +158,12 @@ a.bttn:hover {
 
 .container1 .definitie img {
   display: block;
-  max-width: 80%;
-  height: auto;
   margin-left: auto;
-  margin-top: 50px;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  margin-top: 50px;
 }
 
 @media (min-width: 560px) {
@@ -194,6 +195,8 @@ a.bttn:hover {
   max-width: 80%;
   height: auto;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 560px) {
@@ -255,6 +258,10 @@ a.bttn:hover {
   margin-top: 10px;
 }
 
+.container2 .row3 h3 {
+  padding-top: 30px;
+}
+
 .container3 .hulp h1 {
   margin-top: 50px;
   font-size: 50px;
@@ -272,8 +279,8 @@ a.bttn:hover {
   color: #CA648E;
 }
 
-.container3 .hulp p {
-  padding-top: 50px;
+.container3 .hulp h4 {
+  padding-top: 30px;
 }
 
 .container3 .zelfhulp {
@@ -353,6 +360,7 @@ a.bttn:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 20px;
 }
 
 .container4 .doneer h1 {
@@ -503,7 +511,7 @@ a.bttn:hover {
 }
 
 .footer input[type="text"] {
-  width: 250px;
+  width: 150px;
   margin-right: 10px;
   margin-left: 20px;
   padding-left: 20px;
