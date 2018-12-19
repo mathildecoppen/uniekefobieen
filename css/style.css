@@ -28,8 +28,16 @@ h1 {
 
 h2 {
   font-weight: 600;
-  font-size: 44px;
+  font-size: 35px;
   color: #F16E5F;
+}
+
+@media (min-width: 560px) {
+  h2 {
+    font-weight: 600;
+    font-size: 44px;
+    color: #F16E5F;
+  }
 }
 
 /* background vlekken */
@@ -37,30 +45,40 @@ h2 {
   background-image: url("../images/vlek_rood.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 .vlek-roodroze {
   background-image: url("../images/vlek_roodroze.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 .vlek-groen {
   background-image: url("../images/vlek_groen.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 .vlek-roze {
   background-image: url("../images/vlek_roze.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 .vlek-oranje {
   background-image: url("../images/vlek_oranje.png");
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* button */
@@ -99,8 +117,19 @@ a.bttn:hover {
   padding-right: 20px;
 }
 
+.container .navbar-brand {
+  font-weight: 900;
+  color: #F16E5F;
+  padding-left: 5px;
+}
+
+.container a.navbar-brand:hover {
+  color: #707070;
+}
+
 .container .navbar-collapse .navbar-nav .nav-item {
   color: #707070;
+  padding-left: 5px;
 }
 
 .container .navbar-collapse .navbar-nav .nav-item:hover {
@@ -127,6 +156,7 @@ a.bttn:hover {
 
 .container1 .start {
   padding-top: 40px;
+  padding-left: 20px;
 }
 
 .container1 img {
@@ -149,6 +179,7 @@ a.bttn:hover {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container1 .definitie h4 {
@@ -179,8 +210,6 @@ a.bttn:hover {
   text-align: center;
   margin-top: 100px;
   padding-top: 50px;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .container1 .soorten h3 {
@@ -216,7 +245,8 @@ a.bttn:hover {
   margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container1 .row6 p {
@@ -229,7 +259,7 @@ a.bttn:hover {
 
 .container1 .row6 .bttn {
   margin-left: auto;
-  margin-right: 0px;
+  margin-right: 20px;
   background-color: #D8D67B;
 }
 
@@ -242,6 +272,7 @@ a.bttn:hover {
   font-size: 50px;
   color: #F16E5F;
   padding-bottom: 30px;
+  padding-left: 20px;
 }
 
 @media (min-width: 560px) {
@@ -250,11 +281,15 @@ a.bttn:hover {
   }
 }
 
+.container2 .row2 h4 {
+  padding-left: 20px;
+}
+
 .container2 .row3 {
   padding-top: 70px;
   padding-bottom: 50px;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
   color: #FDF8F4;
   margin-bottom: -50px;
   margin-top: 10px;
@@ -262,6 +297,11 @@ a.bttn:hover {
 
 .container2 .row3 h3 {
   padding-top: 30px;
+}
+
+.container3 .hulp {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container3 .hulp h1 {
@@ -363,6 +403,7 @@ a.bttn:hover {
   display: -ms-flexbox;
   display: flex;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .container4 .doneer h1 {
@@ -385,6 +426,10 @@ a.bttn:hover {
 
 .container4 .doneer .progress {
   margin-top: 40px;
+  height: 50px;
+  border-radius: 35px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .container4 .doneer .progress .progress-bar {
@@ -402,6 +447,8 @@ a.bttn:hover {
 .container5 .contact {
   margin-top: 50px;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container5 .contact h1 {
