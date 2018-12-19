@@ -106,6 +106,7 @@ a.bttn:hover{
 
 /* HOMEPAGE */
 .container {
+    padding-right: 20px;
     .navbar-collapse{
         .navbar-nav {
             .nav-item{
@@ -135,6 +136,14 @@ a.bttn:hover{
 .container1{
     .start {
         padding-top: 40px;
+
+        h1{
+            font-size: 10px;
+
+            @media (min-width: $breekpunt) {
+            font-size: 80px;
+
+        }
     }
     img {
         display: none;
@@ -202,6 +211,8 @@ a.bttn:hover{
 
         @media (min-width: $breekpunt){
             margin-top: 90px;
+            margin-left: auto;
+            margin-right: 60px;
         }
 
         .bttn {
@@ -493,5 +504,3 @@ a.bttn:hover{
         }    
     }    
 }    
-
-
