@@ -308,6 +308,19 @@ a.bttn:hover{
         h4{
             padding-top: 30px;
         }
+        img {
+            display: none;
+    
+            @media (min-width: $breekpunt) {
+                display:block;
+                max-width: 100%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;  
+                margin-top: 50px;
+            }
+        }
+    
     }
     .zelfhulp {
         margin-top: 50px;
@@ -403,6 +416,7 @@ a.bttn:hover{
             font-size: 20px;
             font-weight:700;
 
+
             .progress-bar{
                 background-color: #08BC84;
             }
@@ -440,6 +454,18 @@ a.bttn:hover{
             
         p{
             padding-top: 50px;
+            }
+        img {
+            display: none;
+        
+            @media (min-width: $breekpunt) {
+                display:block;
+                max-width: 140%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;  
+                margin-top: 50px;
+                }
             }
     
         

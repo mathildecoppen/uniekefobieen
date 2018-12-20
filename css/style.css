@@ -325,6 +325,21 @@ a.bttn:hover {
   padding-top: 30px;
 }
 
+.container3 .hulp img {
+  display: none;
+}
+
+@media (min-width: 560px) {
+  .container3 .hulp img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}
+
 .container3 .zelfhulp {
   margin-top: 50px;
   padding-top: 50px;
@@ -470,6 +485,21 @@ a.bttn:hover {
 
 .container5 .contact p {
   padding-top: 50px;
+}
+
+.container5 .contact img {
+  display: none;
+}
+
+@media (min-width: 560px) {
+  .container5 .contact img {
+    display: block;
+    max-width: 140%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
 }
 
 .container5 .contact input[type="submit"] {
